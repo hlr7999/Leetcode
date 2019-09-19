@@ -5,9 +5,9 @@ using namespace std;
 
 class Solution {
 public:
-    // for each bar, find the maximum area that contains the bar
-    // and find the maximum of these maximum areas
-    // to find the maximum area, we find the first bar that
+    // for each bar, find the maximal area that contains the bar
+    // and find the maximal of these maximal areas
+    // to find the maximal area, we find the first bar that
     // less then the current bar on the right and left
     int largestRectangleArea(vector<int>& heights) {
         stack<int> st;
