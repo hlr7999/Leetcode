@@ -12,7 +12,7 @@ static int __ = []() {
 
 class Solution {
 public:
-    // greedy or tail
+    // tail............
     int lengthOfLIS(vector<int>& nums) {
         int len = 0;
         vector<int> tail(nums.size());
